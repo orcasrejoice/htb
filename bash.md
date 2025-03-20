@@ -9,3 +9,4 @@ This file lists several important or useful ```bash``` commands.
 - ```ls -a```: lists all files in current directory, including hidden files
 - ```pwd```: print working directory (shows current path)
 - ```cat <filename.txt>```: shows contents of a ```.txt``` file
+- ```sudo <command>```: SuperUser DO, allows user to operate with security privileges of another user (usually root)
