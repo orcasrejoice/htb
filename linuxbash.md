@@ -28,12 +28,27 @@ This file lists several important or useful ```linux``` and ```bash``` commands.
 - ```ps```: display information about running processes
 - press ```Ctrl + Z``` to suspend a process
 ### Package management
-- 
-
-
+- ```apt update```: update package lists for upgrades
+- ```apt upgrade```: upgrade all installed packages
+- ```apt install <package>```: install a package
+- ```apt remove <package>```: removes a package
+### Archives
+- ```tar -cvf <archive.tar> <dir>```: creates a tarball archive
+- ```tar -xvf <archive.tar>```: extract a tarball archive
+- ```zip <archive.zip> <files>```: create a zip archive
+- ```unzip <archive.zip>```: extract a zip archive
+### User and group management
+- ```whoami```: display the current user
+- ```useradd <username>```: add a new user
+- ```usermod <username>```: modify a user account
+- ```userdel <username>```: delete a user account
+- ```groupadd <groupname>```: create a new group
+- ```passwd <username>```: change user password
 - ```sudo <command>```: SuperUser DO, allow user to operate with security privileges of another user (usually root)
-
-
+### Miscellaneous
+- ```history```: show command history
+- ```man <command>```: show the manual for a command
+- ```clear```: clear the terminal screen (or press ```Ctrl + L```)
 
 ## ```nmap```
 - ```nmap <host-ip-address>```: scan IP address for open ports
