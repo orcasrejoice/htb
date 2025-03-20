@@ -10,5 +10,5 @@ How to connect to, disconnect from, and troubleshoot OpenVPN
 ## ```reverse_shell.md```
 How to upgrade a non-interactive shell (reverse shell) to a fully interactive one
 
-## ```bash.md```
-Commands used in bash terminals
+## ```linuxbash.md```
+Commands used in Linux and bash terminals
