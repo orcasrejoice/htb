@@ -1,7 +1,7 @@
 # Description
 This file lists several important or useful ```bash``` commands.
 
-# Commands
+# Simple generic commands
 - ```rm <filename>```: deletes a file
 - ```rmdir <directoryname>```: deletes a directory (only) if directory is empty
 - ```rmdir -rf <directoryname>```: deletes a directory and everything inside
