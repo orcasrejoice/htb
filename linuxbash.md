@@ -10,6 +10,7 @@ This file lists several important or useful ```linux``` and ```bash``` commands.
 - ```pwd```: print working directory (shows current path)
 - ```cat <filename.txt>```: shows contents of a ```.txt``` file
 - ```sudo <command>```: SuperUser DO, allows user to operate with security privileges of another user (usually root)
+- ```ping <host_ipaddress>```: pings IP address for package delivery and response, checks if machine is up
 
 
 ## ```nmap```
