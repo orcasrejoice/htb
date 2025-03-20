@@ -11,4 +11,4 @@ How to connect to, disconnect from, and troubleshoot OpenVPN
 How to upgrade a non-interactive shell (reverse shell) to a fully interactive one
 
 ## ```linuxbash.md```
-Commands used in Linux and bash terminals
+Commands used in Linux and bash terminals, includes commands for ```nmap``` and other programs executed in terminal
