@@ -1,5 +1,5 @@
 # Description
-This file lists everything you need to know to use ```nmap``` well as a beginner!
+This file lists everything you need to know to use ```MySQL``` well as a beginner!
 
 ### Commands in terminal
 - ```mysql -u <username> -p```: connect to MySQL as user ```username``` and prompts for password, then leads to root environment
