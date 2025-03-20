@@ -26,7 +26,8 @@ This file lists several important or useful ```linux``` and ```bash``` commands.
 - ```fg <process_number>```: bring a background job to the foreground, use process number only if multiple are running in background
 - ```jobs```: list all background jobs
 - ```ps```: display information about running processes
-- press ```Ctrl + Z``` to suspend a process
+- press ```Ctrl + Z```: suspend a process
+- press ```Ctrl + C```: cancel/stop a process
 ### Package management
 - ```apt update```: update package lists for upgrades
 - ```apt upgrade```: upgrade all installed packages
