@@ -12,7 +12,7 @@ This file lists several important or useful ```linux``` and ```bash``` commands.
 - ```cp <source> <destination>```: copy files or directory
 ### File contents
 - ```cat <filename>```: concatenate and display contents of a file
-- ```grep <pattern> <filename>```: search for a pattern in a file
+- ```grep <pattern> <filename>```: search for a pattern in a file (see more on ```grep``` below)
 - ```wc <filename>```: count characters, words, and lines in a file
 ### Networking
 - ```ping <host_ipaddress>```: ping IP address for package delivery and response, checks if machine is up
@@ -47,6 +47,23 @@ This file lists several important or useful ```linux``` and ```bash``` commands.
 - ```groupadd <groupname>```: create a new group
 - ```passwd <username>```: change user password
 - ```sudo <command>```: SuperUser DO, allow user to operate with security privileges of another user (usually root)
+### more ```grep``` commands
+- ```grep "<word>" <filename.txt>```: search for ```"word"``` in file
+- ```-i```: search case-insensitively
+- ```-l```: list file names only
+- ```-n```: show line numbers of matches
+- ```-o```: show matched word only instead of full line
+- ```-w```: match whole words only
+- ```-v```: exclude results with ```"word"```
+- ```-rI```: exlude binary files
+- ```-E```: use for extended regex
+- ```-E "<word1>|<word2>|<word3>"```: search for ```"word1"```, ```"word2"```, or ```"word3"```
+- ```grep "<word>" *.<file_extension>```: search all ```.<file_extentension>``` files for ```"word"```
+- ```grep "^<word>" <filename.txt>```: find lines starting with ```"word"```
+- ```grep "<word>$" <filename.txt>```: find lines ending with ```"word"```
+- ```grep -r "<word>" /dir1/dir2```: search for ```"word"``` in all files in ```/dir1/dir2``` (```-r```: recursive search)
+- ``` | grep "<word>"```: filter results for ```"word"``` (use after command in bash/Linux)
+- ```--color=auto```: highlight matches in color
 ### Miscellaneous
 - ```history```: show command history
 - ```man <command>```: show the manual for a command
