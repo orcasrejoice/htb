@@ -22,4 +22,4 @@ Everything you need to know about using ```MySQL```
 ## ```gobuster.md```
 Everything you need to know about using ```Gobuster```
 
-> Note to self: write an ```ncat``` file, ```awscli``` file
+> Note to self: write for ```ncat```, ```awscli```, ```mssql```
