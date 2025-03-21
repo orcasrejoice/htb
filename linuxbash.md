@@ -47,7 +47,7 @@ This file lists several important or useful ```linux``` and ```bash``` commands.
 - ```groupadd <groupname>```: create a new group
 - ```passwd <username>```: change user password
 - ```sudo <command>```: SuperUser DO, allow user to operate with security privileges of another user (usually root)
-### more ```grep``` commands
+### More ```grep``` commands
 - ```grep "<word>" <filename.txt>```: search for ```"word"``` in file
 - ```-i```: search case-insensitively
 - ```-l```: list file names only
