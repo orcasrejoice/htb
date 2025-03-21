@@ -8,7 +8,7 @@ How to log in to various systems such as ```telnet``` through the terminal
 How to connect to, disconnect from, and troubleshoot OpenVPN
 
 ## ```reverse_shell.md```
-How to upgrade a non-interactive shell (reverse shell) to a fully interactive one
+Everything I know about reverse shells and how to use them
 
 ## ```linuxbash.md```
 Generic commands used in Linux and bash terminals
