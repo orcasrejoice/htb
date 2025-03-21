@@ -23,3 +23,4 @@ Everything you need to know about using ```MySQL```
 Everything you need to know about using ```Gobuster```
 
 > Note to self: write for ```ncat```, ```awscli```, ```mssql```
+> https://pentestmonkey.net/cheat-sheet/sql-injection/mssql-sql-injection-cheat-sheet
