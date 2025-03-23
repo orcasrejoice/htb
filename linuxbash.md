@@ -14,6 +14,7 @@ This file lists several important or useful ```linux``` and ```bash``` commands.
 - ```cat <filename>```: concatenate and display contents of a file
 - ```grep <pattern> <filename>```: search for a pattern in a file (see more on ```grep``` below)
 - ```wc <filename>```: count characters, words, and lines in a file
+- ```nano <new_filename>```: create new file and open ```nano``` in-shell editor
 ### Networking
 - ```ping <host_ipaddress>```: ping IP address for package delivery and response, checks if machine is up
 - ```wget <url>```: download files from the web
