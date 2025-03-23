@@ -1,5 +1,5 @@
 # Description
-This file lists several important or useful ```linux``` and ```bash``` commands. As for the very obvious or typical ones, such as ```exit``` to leave an environment or basic SQL queries for MySQL, they will not be listed in order to prevent this document from getting too cluttered.
+This file lists several important or useful ```linux``` and ```bash``` commands. As for the very obvious or typical ones, such as ```exit```, ```-h```, ```man```, or basic SQL queries for MySQL, they will not be listed in order to prevent this document from getting too cluttered.
 
 ### Directories and files
 - ```cd <dir_name>```: change directory
@@ -69,4 +69,5 @@ This file lists several important or useful ```linux``` and ```bash``` commands.
 - ```man <command>```: show the manual for a command
 - ```clear```: clear the terminal screen (or press ```Ctrl + L```)
 - ```echo $variable```: capture and print value of variable
-    - e.g. ```echo $MAIL```: prints something like ```/var/mail/username``` 
+    - e.g. ```echo $MAIL```: prints something like ```/var/mail/username```
+- ```uname```: a command for displaying system information. use ```man uname``` to see usage
