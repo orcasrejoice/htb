@@ -68,4 +68,5 @@ This file lists several important or useful ```linux``` and ```bash``` commands.
 - ```history```: show command history
 - ```man <command>```: show the manual for a command
 - ```clear```: clear the terminal screen (or press ```Ctrl + L```)
-- ```echo $(command)```: capture and print output of command 
+- ```echo $variable```: capture and print value of variable
+    - e.g. ```echo $MAIL```: prints something like ```/var/mail/username``` 
