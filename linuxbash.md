@@ -48,6 +48,7 @@ This file lists several important or useful ```linux``` and ```bash``` commands.
 - ```userdel <username>```: delete a user account
 - ```groupadd <groupname>```: create a new group
 - ```passwd <username>```: change user password
+- ```chown <user>:<group> <file/dir>```: change owner of file or directory
 - ```sudo <command>```: SuperUser DO, allow user to operate with security privileges of another user (usually root)
 ### More ```grep``` commands
 - ```grep "<word>" <filename.txt>```: search for ```"word"``` in file
