@@ -58,6 +58,7 @@ This file lists several important or useful ```linux``` and ```bash``` commands.
 - ```-w```: match whole words only
 - ```-v```: exclude results with ```"word"```
 - ```-rI```: exlude binary files
+- ```-P```: use Perl-compatible regex for advanced pattern searching
 - ```-E```: use for extended regex
 - ```-E "<word1>|<word2>|<word3>"```: search for ```"word1"```, ```"word2"```, or ```"word3"```
 - ```grep "<word>" *.<file_extension>```: search all ```.<file_extentension>``` files for ```"word"```
