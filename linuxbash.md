@@ -20,7 +20,8 @@ This file lists several important or useful ```linux``` and ```bash``` commands.
 - ```netstat```: show network connections, routing tables, and interface stats
 - ```curl <url>```: transfer data from or to a server. useful for logins.
   - ```curl -X POST <host_ipaddress> -d <"username=admin&password=admin123">```: logs in to IP address with credentials ```admin``` and ```admin123```
-  - ```-c cookies.txt```: saves cookies to ```cookies.txt``` if authentication succeeds
+  - ```-c cookies.txt```: save cookies to ```cookies.txt``` if authentication succeeds
+  - ```ipconfig```: display or config IP settings for network interfaces
 ### Process management
 - ```kill <PID>```: kill a process by its PID
 - ```bg```: resume a suspended process in the background
