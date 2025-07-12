@@ -10,7 +10,7 @@
 3. ```sudo systemctl restart networking```: if ```tun0``` still returns IP address, reboot.
 
 # How to check if you're connected
-- Are you connected to HTB VPN? ```ip a | grep tun0```
+- Are you connected to a VPN? ```ip a | grep tun0```
   - If you see something like ```10.10.X.X```, you're connected!
 - Can you ping the machine's IP? ```ping -c 4 <HTB-Machine-IP>```
 - Did you add the machine to /etc/hosts? ```cat /etc/hosts```
